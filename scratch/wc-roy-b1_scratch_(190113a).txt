@@ -21,6 +21,9 @@ cd wc-roy-b1
 npm add --save hammerjs <- DIDN'T DO THIS!
 npm add --save-dev --save-exact prettier
 
+git remote add origin https://github.com/jstahovic/wc-roy-b1.git
+git push -u origin master
+
 npx ng g c home -m app
 npx ng g c void -m app
 
